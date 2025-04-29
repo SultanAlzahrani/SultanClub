@@ -1,0 +1,80 @@
+/* global/main.css */
+
+/* 
+F2EFE7
+9ACBD0
+48A6A7
+006A71
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header,
+.footer {
+  /* background-color: #0c2d57; */
+  background-color: #f2efe7;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  background-color: #48a6a7;
+  color: white;
+}
+.footer a > img {
+  width: 150px;
+}
+
+.header img {
+  max-width: 100%;
+}
+
+.nav {
+  background-color: #48a6a7;
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+  padding-right: 1rem;
+  border-radius: 1rem;
+}
+
+.nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.nav a:hover {
+  background-color: #419394;
+}
+
+.content {
+  padding: 30px;
+  background-color: white;
+  width: 70%;
+  flex: 1;
+  height: 100%;
+}
+
+.db-message {
+  margin-top: 20px;
+  font-style: italic;
+  color: #0c2d57;
+}
+
+/* Home */

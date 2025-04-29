@@ -1,0 +1,50 @@
+.contact-card {
+  background-color: #fefefe;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 2px solid #0c2d57;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h2 {
+  text-align: center;
+  color: #0c2d57;
+  margin-bottom: 25px;
+}
+
+.contact-card p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  color: #333;
+}
+
+#email {
+  color: #145da0;
+  font-weight: bold;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #0c2d57;
+  font-weight: bold;
+  border: 2px solid #0c2d57;
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.links a:hover {
+  background-color: #0c2d57;
+  color: white;
+}

@@ -1,0 +1,45 @@
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.schedule-table caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0c2d57;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.schedule-table thead {
+  background-color: #9acbd0;
+  color: white;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.print-button {
+  background-color: #0c2d57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.print-button:hover {
+  background-color: #145da0;
+}

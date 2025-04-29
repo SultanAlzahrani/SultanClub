@@ -1,0 +1,21 @@
+/* Hide everything except the table */
+body * {
+  visibility: hidden;
+}
+
+.schedule-table,
+.schedule-table * {
+  visibility: visible;
+}
+
+.schedule-table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+.print-button {
+  display: none;
+}
